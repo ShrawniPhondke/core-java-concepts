@@ -25,50 +25,29 @@ public class Operator {
         int result = (10 + 5) * 4 / 2 % 7 - 3;
 //        System.out.println(result);
 
-        int x = 5;
+        int x = 5; // 6 // 7
 
         x = x++ + ++x;
+         //   5 + 7 = 12
 
 //        System.out.println(x);
 
         int j = 44;
         j = 2;
-//        System.out.println(j);
+       System.out.println(j);
+
 
         int k = 23;
         int l = 22;
 
-//        System.out.println(k == l);
-//        System.out.println(k != l);
-//        System.out.println(k < l);
-//        System.out.println(k > l);
-//        System.out.println(k <= l);
-//        System.out.println(k >= l);
+        System.out.println(k == l);
+        System.out.println(k != l);
+        System.out.println(k < l);
+        System.out.println(k > l);
+        System.out.println(k <= l);
+        System.out.println(k >= l);
 
-        int age = 18;
-//
-//        if (age > 18 && age < 30) {
-//
-//            System.out.println("eligible for voting");
-//        } else {
-//            System.out.println("not eligible for voting");
-//        }
 
-       int score = 90;
-        if(score  > 70 || score < 85){
-            System.out.println("Admission");
-        }
-        else{
-            System.out.println("not Admission");
-        }
-
-        boolean isLoggedIn = true;
-
-        if (!isLoggedIn) {
-            System.out.println("Please login first.");
-        } else {
-            System.out.println("Welcome!");
-        }
 
     }
 }
