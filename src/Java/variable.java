@@ -111,7 +111,8 @@ public class variable {
         System.out.println(c);
         // 12 + 9 + 12 + 9
 
-        int a = 5; // 6 // 7
+
+//        int a = 5; // 6 // 7
 //        int b = a; // 5 // 6 // 5
 //        int c = ++a + b++ + a++ + --b;
 ////     6 + 5 + 6 + 5
@@ -158,6 +159,9 @@ public class variable {
 //        System.out.println(x);
 //        System.out.println(y);
 
+//     int a = 10;
+//     int b = 20 ;
+//     b = a;
 
 
 
