@@ -2,7 +2,7 @@ package Java;
 
 import java.util.Scanner;
 
-public class Shrawni {
+public class SwitchLoops {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -39,6 +39,22 @@ public class Shrawni {
 
             default:
                 System.out.println("It is a consonant");
+        }
+
+        Scanner s = new Scanner(System.in);
+        System.out.println("ENTER THE NUMBER: ");
+        int a = s.nextInt();
+
+        int count = 0;
+        for(int i = 1 ; i <= a;i++)
+            if (a % i == 0) {
+                count++;
+            }
+        if(count == 2) {
+            System.out.println("PRIME");
+        }
+        else {
+            System.out.println("NOT PRIME");
         }
     }
 }
