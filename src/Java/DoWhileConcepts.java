@@ -46,19 +46,44 @@ public class DoWhileConcepts {
 //
 //                Above 60000 →20%
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your Salary: ");
-        double salary = sc.nextInt();
-        double bonus ;
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter your Salary: ");
+//        double salary = sc.nextInt();
+//        double bonus ;
+//
+//        if(salary<30000){
+//            bonus = salary*0.10;
+//        }
+//        else if(salary<=60000){
+//            bonus =salary*0.15;
+//        } else {
+//            bonus =salary*0.20;
+//        } System.out.println("bonus = " + bonus);
 
-        if(salary<30000){
-            bonus = salary*0.10;
+
+//        int x = 1;
+//        do{
+//            System.out.println(x*7);
+//            x++;
+//        }while(x <=10);
+
+
+//        for (int i = 1; i <= 5; i++) {
+//
+//            for (int j = 1; j <= 3; j++) {
+//                System.out.print(i);
+//            }
+//
+//            System.out.println();
+//        }
+
+        for (int i = 1; i <= 3; i++) {
+
+            for (int j = 1; j <= i; j++) {
+                System.out.print(j + " ");
+            }
+
+            System.out.println();
         }
-        else if(salary<=60000){
-            bonus =salary*0.15;
-        } else {
-            bonus =salary*0.20;
-        } System.out.println("bonus = " + bonus);
-
     }
 }
