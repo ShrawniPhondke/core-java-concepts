@@ -1,0 +1,55 @@
+package Java;
+
+import java.util.Scanner;
+
+public class Calculator {
+
+    public static void main(String[] args){
+
+        Scanner ss = new Scanner(System.in);
+        System.out.println("Enter your 1st Number:");
+        int a = ss.nextInt();
+        System.out.println("Enter your 2nd Number: ");
+        int b = ss.nextInt();
+
+        System.out.println("Enter select any of :");
+        System.out.println("1 = Addition");
+        System.out.println("2 = sub");
+        System.out.println("3 = div");
+        System.out.println("4 = modules");
+        System.out.println("5 = multi");
+        int c = ss.nextInt();
+
+//        int select;
+
+        switch(c){
+            case 1 :
+                System.out.println(a + b);
+                break;
+            case 2 :
+                System.out.println(a - b);
+                break;
+            case 3 :
+                if((a > b ) && (b != 0)){
+                    System.out.println(a / b);
+                } else {
+                    System.out.println("NUMBER NOT VALID");
+                }
+                break;
+            case 4 :
+                System.out.println( a % b);
+                break;
+
+            case 5:
+                System.out.println(a * b);
+                break;
+            default:
+                System.out.println("invalid");
+        }
+        ss.close();
+
+
+
+
+    }
+}
